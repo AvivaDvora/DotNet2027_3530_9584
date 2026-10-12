@@ -1,0 +1,59 @@
+﻿
+
+
+using DalApi;
+using DO;
+
+namespace Dal
+{
+    internal class StudentImplementation : IStudent
+    {
+        public int Create(Student item)
+        {
+          
+            if (DataSource.Students.Any(s => s?.Id == item.Id))
+                throw new DalAlreadyExistsException("Student with this ID already exists");
+
+            DataSource.Students.Add(item);
+            return item.Id;
+        }
+
+     
+        public Student? Read(int id)
+        {
+            return DataSource.Students.FirstOrDefault(s => s?.Id == id);
+        }
+
+        
+        public List<Student> ReadAll()
+        {
+            return new List<Student>();
+        }
+
+        public void Update(Student item)
+        {
+            for (int i = 0; i < DataSource.Students.Count; i++)
+            {
+                if (DataSource.Students[i]?.Id == item.Id)
+                {
+                    DataSource.Students[i] = item;
+                    return;
+                }
+            }
+            throw new DalDoesNotExistException("Student with this ID does not exist");
+        }
+
+        public void Delete(int id)
+        {
+            for (int i = 0; i < DataSource.Students.Count; i++)
+            {
+                if (DataSource.Students[i]?.Id == id)
+                {
+                    DataSource.Students.RemoveAt(i);
+                    return;
+                }
+            }
+            throw new DalDoesNotExistException("Student with this ID does not exist");
+        }
+    }
+}
