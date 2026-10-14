@@ -1,0 +1,15 @@
+C:\כל התקיות\תכנות\DotNet2027_3530_9584-master\DotNet2027_3530_9584-master\DalList\bin\Debug\net8.0\DalList.deps.json
+C:\כל התקיות\תכנות\DotNet2027_3530_9584-master\DotNet2027_3530_9584-master\DalList\bin\Debug\net8.0\DalList.dll
+C:\כל התקיות\תכנות\DotNet2027_3530_9584-master\DotNet2027_3530_9584-master\DalList\bin\Debug\net8.0\DalList.pdb
+C:\כל התקיות\תכנות\DotNet2027_3530_9584-master\DotNet2027_3530_9584-master\DalList\bin\Debug\net8.0\DalFacade.dll
+C:\כל התקיות\תכנות\DotNet2027_3530_9584-master\DotNet2027_3530_9584-master\DalList\bin\Debug\net8.0\DalFacade.pdb
+C:\כל התקיות\תכנות\DotNet2027_3530_9584-master\DotNet2027_3530_9584-master\DalList\obj\Debug\net8.0\DalList.csproj.AssemblyReference.cache
+C:\כל התקיות\תכנות\DotNet2027_3530_9584-master\DotNet2027_3530_9584-master\DalList\obj\Debug\net8.0\DalList.GeneratedMSBuildEditorConfig.editorconfig
+C:\כל התקיות\תכנות\DotNet2027_3530_9584-master\DotNet2027_3530_9584-master\DalList\obj\Debug\net8.0\DalList.AssemblyInfoInputs.cache
+C:\כל התקיות\תכנות\DotNet2027_3530_9584-master\DotNet2027_3530_9584-master\DalList\obj\Debug\net8.0\DalList.AssemblyInfo.cs
+C:\כל התקיות\תכנות\DotNet2027_3530_9584-master\DotNet2027_3530_9584-master\DalList\obj\Debug\net8.0\DalList.csproj.CoreCompileInputs.cache
+C:\כל התקיות\תכנות\DotNet2027_3530_9584-master\DotNet2027_3530_9584-master\DalList\obj\Debug\net8.0\DalList.csproj.Up2Date
+C:\כל התקיות\תכנות\DotNet2027_3530_9584-master\DotNet2027_3530_9584-master\DalList\obj\Debug\net8.0\DalList.dll
+C:\כל התקיות\תכנות\DotNet2027_3530_9584-master\DotNet2027_3530_9584-master\DalList\obj\Debug\net8.0\refint\DalList.dll
+C:\כל התקיות\תכנות\DotNet2027_3530_9584-master\DotNet2027_3530_9584-master\DalList\obj\Debug\net8.0\DalList.pdb
+C:\כל התקיות\תכנות\DotNet2027_3530_9584-master\DotNet2027_3530_9584-master\DalList\obj\Debug\net8.0\ref\DalList.dll

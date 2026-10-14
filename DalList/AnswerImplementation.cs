@@ -23,7 +23,7 @@ namespace Dal
         public Answer? Read(int id) =>
             DataSource.Answers.FirstOrDefault(a => a?.Id == id);
 
-        public List<Answer> ReadAll() => new List<Answer>();
+        public List<Answer> ReadAll() => new List<Answer>(DataSource.Answers);
 
         public void Update(Answer item)
         {

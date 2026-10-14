@@ -1,0 +1,11 @@
+C:\כל התקיות\תכנות\DotNet2027_3530_9584-master\DotNet2027_3530_9584-master\bin\DalFacade.deps.json
+C:\כל התקיות\תכנות\DotNet2027_3530_9584-master\DotNet2027_3530_9584-master\bin\DalFacade.dll
+C:\כל התקיות\תכנות\DotNet2027_3530_9584-master\DotNet2027_3530_9584-master\bin\DalFacade.pdb
+C:\כל התקיות\תכנות\DotNet2027_3530_9584-master\DotNet2027_3530_9584-master\DalFacade\obj\Debug\DalFacade.GeneratedMSBuildEditorConfig.editorconfig
+C:\כל התקיות\תכנות\DotNet2027_3530_9584-master\DotNet2027_3530_9584-master\DalFacade\obj\Debug\DalFacade.AssemblyInfoInputs.cache
+C:\כל התקיות\תכנות\DotNet2027_3530_9584-master\DotNet2027_3530_9584-master\DalFacade\obj\Debug\DalFacade.AssemblyInfo.cs
+C:\כל התקיות\תכנות\DotNet2027_3530_9584-master\DotNet2027_3530_9584-master\DalFacade\obj\Debug\DalFacade.csproj.CoreCompileInputs.cache
+C:\כל התקיות\תכנות\DotNet2027_3530_9584-master\DotNet2027_3530_9584-master\DalFacade\obj\Debug\DalFacade.dll
+C:\כל התקיות\תכנות\DotNet2027_3530_9584-master\DotNet2027_3530_9584-master\DalFacade\obj\Debug\refint\DalFacade.dll
+C:\כל התקיות\תכנות\DotNet2027_3530_9584-master\DotNet2027_3530_9584-master\DalFacade\obj\Debug\DalFacade.pdb
+C:\כל התקיות\תכנות\DotNet2027_3530_9584-master\DotNet2027_3530_9584-master\DalFacade\obj\Debug\ref\DalFacade.dll
