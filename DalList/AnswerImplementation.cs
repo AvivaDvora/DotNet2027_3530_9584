@@ -14,10 +14,11 @@ namespace Dal
 
         public int Create(Answer item)
         {
-            if (DataSource.Answers.Any(a => a?.Id == item.Id))
-                throw new DalAlreadyExistsException("Answer with this ID already exists");
-            DataSource.Answers.Add(item);
-            return item.Id;
+            int id = DataSource.Config.NextAnswerId;
+            Answer newAnswer = item with { Id = id };
+            
+            DataSource.Answers.Add(newAnswer);
+            return newAnswer.Id;
         }
 
         public Answer? Read(int id) =>

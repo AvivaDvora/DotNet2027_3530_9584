@@ -7,11 +7,11 @@ namespace Dal
     {
         public int Create(Question item)
         {
-            if (DataSource.Questions.Any(q => q?.Id == item.Id))
-                throw new DalAlreadyExistsException("Question with this ID already exists");
+            int id = DataSource.Config.NextQuestionId;
+            Question newQuestion = item with { Id = id };
 
-            DataSource.Questions.Add(item);
-            return item.Id;
+            DataSource.Questions.Add(newQuestion);
+            return newQuestion.Id;
         }
 
         public Question? Read(int id)
@@ -21,7 +21,7 @@ namespace Dal
 
         public List<Question> ReadAll()
         {
-            return new List<Question>();
+            return new List<Question>(DataSource.Questions);
         }
 
         public void Update(Question item)

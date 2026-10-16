@@ -6,9 +6,10 @@ namespace DO;
 public enum Subject
 {
     /// <summary>נושא מבחן/שאלה מס' 1.</summary>
-    Subject1,
+    Geography,
     /// <summary>נושא מבחן/שאלה מס' 2.</summary>
-    Subject2,
+    Math,
     /// <summary>נושא מבחן/שאלה מס' 3.</summary>
-    Subject3
+    Chemistry,
+    Science
 }

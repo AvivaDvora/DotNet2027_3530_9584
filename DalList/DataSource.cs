@@ -12,17 +12,23 @@ internal static class DataSource
 
     internal static class Config
     {
-        internal const int startStudentId = 1000;
-        private static int runningStudentId = startStudentId;
-        internal static int NextStudentId { get { return runningStudentId++; } }
+      
 
         // וכך הלאה עבור כל ישות עם מזהה רץ:
         internal const int startTestId = 100;
         private static int runningTestId = startTestId;
         internal static int NextTestId { get { return runningTestId++; } }
 
+        internal const int startQuestionId = 100;
+        private static int runningQuestionId = startTestId;
+        internal static int NextQuestionId { get { return runningQuestionId++; } }
 
-        
-        
+        internal const int startAnswerId = 100;
+        private static int runningAnswerId = startTestId;
+        internal static int NextAnswerId { get { return runningAnswerId++; } }
+
+
+
+
     }
 }

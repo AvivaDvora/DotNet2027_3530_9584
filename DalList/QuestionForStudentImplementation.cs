@@ -29,7 +29,7 @@ namespace Dal
                 q?.TestId == testId &&
                 q?.QuestionId == questionId);
 
-        public List<QuestionForStudent> ReadAll() => new List<QuestionForStudent>();
+        public List<QuestionForStudent> ReadAll() => new List<QuestionForStudent>(DataSource.QuestionsForStudent);
 
         public void Update(QuestionForStudent item)
         {
