@@ -27,7 +27,7 @@ namespace Dal
         
         public List<Student> ReadAll()
         {
-            return new List<Student>();
+            return new List<Student>(DataSource.Students);
         }
 
         public void Update(Student item)

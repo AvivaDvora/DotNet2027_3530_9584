@@ -7,12 +7,13 @@ namespace Dal
     {
         public int Create(Test item)
         {
-            if (DataSource.Tests.Any(t => t?.Id == item.Id))
-                throw new DalAlreadyExistsException("Test with this ID already exists");
+            int id = DataSource.Config.NextTestId;
+            Test newTest = item with { Id = id };
 
-            DataSource.Tests.Add(item);
-            return item.Id;
+            DataSource.Tests.Add(newTest);
+            return newTest.Id;
         }
+       
 
         public Test? Read(int id)
         {
@@ -21,7 +22,7 @@ namespace Dal
 
         public List<Test> ReadAll()
         {
-            return new List<Test>();
+            return new List<Test>(DataSource.Tests);
         }
 
         public void Update(Test item)
