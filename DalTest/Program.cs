@@ -7,10 +7,76 @@ namespace DalTest;
 
 private static IDal s_dal = new DalList();
 Initialize(s_dal);
+
+
 public static void main(string[] args)
 {
-    tr
-   }
+    try
+    {
+
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine($"Error: {ex.Message}");
+    }
+}
+
+private static void UpdateAnswer()
+private static void UpdateQuestion()
+private static void UpdateStudent()
+ private static void UpdateTest()
+private static void UpdateQuestionForStudent()
+
+private static void ReadAll<T>(ICrud<T> icrud)
+private static void Read<T>(ICrud<T> crud)
+private static void Delete<T>(ICrud<T> crud)
+
+public static void MainMenu()
+{
+    int choice;
+    do
+    {
+        choice = PrintMainMenu();
+        switch (choice)
+        {
+            case 1:
+                SubMenu("Answer");
+                break;
+            case 2:
+                SubMenu("Question");
+                break;
+            case 3:
+                SubMenu("Student");
+                break;
+            case 4:
+                SubMenu("Test");
+                break;
+            case 5:
+                SubMenu("QuestionForStudent");
+            case 0:
+                Console.WriteLine("Exiting...");
+                break;
+            default:
+                Console.WriteLine("Invalid choice. Please try again.");
+                break;
+        }
+    } while (choice != 0);
+}
+public static int PrintMainMenu()
+{
+    Console.WriteLine("Main Menu:\n");
+    Console.WriteLine("לתשובה הקש 1 \n ");
+    Console.WriteLine("לשאלה הקש 2\n ");
+    Console.WriteLine("לתלמיד הקש 1 \n ");
+
+
+}
+public static int SubMenu(string item)
+
+public static int PrintSubMenu(string item)
+
+
+
 
 
 
