@@ -253,6 +253,85 @@ public static int PrintMainMenu()
 
 }
 
+public static int PrintSubMenu(string item)
+{
+            Switch(item)
+        {
+        case "Answer":
+
+            Console.WriteLine("Answer Submenu:\n");
+
+            Console.WriteLine("1. Add Answer");
+            AddAnswer();
+            Console.WriteLine("2. Get Answer by ID");
+            Read(item);
+            Console.WriteLine("3. Get All Answers");
+            ReadAll(item);
+            Console.WriteLine("4. Update Answer");
+            UpdateAnswer();
+            Console.WriteLine("5. Delete Answer");
+            Delete(item);
+
+
+            break;
+        case "Question":
+            Console.WriteLine("Question Submenu:\n");
+            Console.WriteLine("1. Add Question");
+            AddQuestion();
+            Console.WriteLine("2. Get Question by ID");
+            read(item);
+            Console.WriteLine("3. Get All Questions");
+            ReadAll(item);
+            Console.WriteLine("4. Update Question");
+            UpdateQuestion();
+            Console.WriteLine("5. Delete Question");
+            Delete(item);
+            break;
+        case "Student":
+            Console.WriteLine("Student Submenu:\n");
+            Console.WriteLine("1. Add Student");
+            AddStudent();
+            Console.WriteLine("2. Get Student by ID");
+            Read(item);
+            Console.WriteLine("3. Get All Students");
+            ReadAll(item);
+            Console.WriteLine("4. Update Student");
+            UpdateStudent(item)
+            Console.WriteLine("5. Delete Student");
+            Delete(item);
+            break;
+        case "Test":
+            Console.WriteLine("Test Submenu:\n");
+            Console.WriteLine("1. Add Test");
+            AddTest();
+            Console.WriteLine("2. Get Test by ID");
+            read(item);
+            Console.WriteLine("3. Get All Tests");
+            ReadAll(item);
+            Console.WriteLine("4. Update Test");
+            UpdateTest();
+            Console.WriteLine("5. Delete Test");
+            Delete(item);
+            break;
+        case "QuestionForStudent":
+            Console.WriteLine("QuestionForStudent Submenu:\n");
+            Console.WriteLine("1. Add QuestionForStudent");
+            AddQuestionForStudent();
+            Console.WriteLine("2. Get QuestionForStudent by IDs");
+            Read(item);
+            Console.WriteLine("3. Get All QuestionForStudents");
+            ReadAll(item);
+            Console.WriteLine("4. Update QuestionForStudent");
+            UpdateQuestionForStudent();
+            Console.WriteLine("5. Delete QuestionForStudent");
+            Delete(item);
+            break;
+        default:
+            throw new ArgumentException($"Unknown item: {item}");
+        }
+    }
+}
+
 
 
 
