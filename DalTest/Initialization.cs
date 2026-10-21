@@ -14,6 +14,7 @@ public static class Initialization
         s_dal.Student.Create(new Student { Id = 2, Name = "Jane", TestId = 0, Score = 0 });
         s_dal.Student.Create(new Student { Id = 3, Name = "Alice", TestId = 0, Score = 0 });
         s_dal?.Student.Create(new Student { Id = 4, Name = "Bob", TestId = 0, Score = 0 });
+        
     }
 
     private static void createQuestion()

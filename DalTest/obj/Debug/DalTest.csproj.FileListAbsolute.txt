@@ -1,0 +1,6 @@
+C:\Users\huser\source\repos\AvivaDvora\DotNet2027_3530_9584\DalTest\obj\Debug\DalTest.csproj.AssemblyReference.cache
+C:\Users\huser\source\repos\AvivaDvora\DotNet2027_3530_9584\DalTest\obj\Debug\DalTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\huser\source\repos\AvivaDvora\DotNet2027_3530_9584\DalTest\obj\Debug\DalTest.AssemblyInfoInputs.cache
+C:\Users\huser\source\repos\AvivaDvora\DotNet2027_3530_9584\DalTest\obj\Debug\DalTest.AssemblyInfo.cs
+C:\Users\huser\source\repos\AvivaDvora\DotNet2027_3530_9584\DalTest\obj\Debug\DalTest.csproj.CoreCompileInputs.cache
+C:\Users\huser\source\repos\AvivaDvora\DotNet2027_3530_9584\DalTest\obj\Debug\DalTest.sourcelink.json
