@@ -112,24 +112,97 @@ public static class Initialization
             QuestionId = 1,
             Content = "Paris"
         });
-        s_dal.Answer.Create(new Answer
+        s_dal!.Answer.Create(new Answer
         {
             Id = 2,
+            QuestionId = 1,
+            Content = "New York"
+        });
+        s_dal!.Answer.Create(new Answer
+        {
+            Id = 3,
+            QuestionId = 1,
+            Content = "London"
+        }); s_dal!.Answer.Create(new Answer
+        {
+            Id = 4,
+            QuestionId = 1,
+            Content = "Barlin"
+        });
+        s_dal.Answer.Create(new Answer
+        {
+            Id = 5,
             QuestionId = 2,
             Content = "4"
         });
+        s_dal!.Answer.Create(new Answer
+        {
+            Id = 6,
+            QuestionId = 2,
+            Content = "5"
+        });
+        s_dal!.Answer.Create(new Answer
+        {
+            Id = 7,
+            QuestionId = 2,
+            Content = "6"
+        });
+        s_dal!.Answer.Create(new Answer
+        {
+            Id = 8,
+            QuestionId = 2,
+            Content = "9"
+        });
         s_dal.Answer.Create(new Answer
         {
-            Id = 3,
+            Id = 9,
             QuestionId = 3,
             Content = "Jupiter"
         });
+        s_dal!.Answer.Create(new Answer
+        {
+            Id = 10,
+            QuestionId = 3,
+            Content = "Moon"
+        });
+        s_dal!.Answer.Create(new Answer
+        {
+            Id = 11,
+            QuestionId = 3,
+            Content = "Saturn"
+        });
+        s_dal!.Answer.Create(new Answer
+        {
+            Id = 12,
+            QuestionId = 3,
+            Content = "Mars"
+        });
         s_dal.Answer.Create(new Answer
         {
-            Id = 4,
+            Id = 13,
             QuestionId = 4,
             Content = "H2O"
         });
+        s_dal!.Answer.Create(new Answer
+        {
+            Id = 14,
+            QuestionId = 4,
+            Content = "H2"
+        });
+        s_dal!.Answer.Create(new Answer
+        {
+            Id = 15,
+            QuestionId = 4,
+            Content = "CO2"
+        });
+        s_dal!.Answer.Create(new Answer
+        {
+            Id = 16,
+            QuestionId = 4,
+            Content = "G5"
+        });
+  
+
     }
 
     public static void Initialize(IDal dal)

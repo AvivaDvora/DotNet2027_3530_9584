@@ -16,3 +16,8 @@ C:\כל התקיות\תכנות\DotNet2027_3530_9584-master\DotNet2027_3530_9584
 C:\Users\huser\source\repos\AvivaDvora\DotNet2027_3530_9584\DalList\obj\Debug\net6.0\DalList.dll
 C:\Users\huser\source\repos\AvivaDvora\DotNet2027_3530_9584\DalList\obj\Debug\net6.0\refint\DalList.dll
 C:\Users\huser\source\repos\AvivaDvora\DotNet2027_3530_9584\DalList\obj\Debug\net6.0\DalList.pdb
+C:\Users\huser\source\repos\AvivaDvora\DotNet2027_3530_9584\DalList\obj\Debug\net6.0\DalList.csproj.AssemblyReference.cache
+C:\Users\huser\source\repos\AvivaDvora\DotNet2027_3530_9584\DalList\obj\Debug\net6.0\DalList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\huser\source\repos\AvivaDvora\DotNet2027_3530_9584\DalList\obj\Debug\net6.0\DalList.AssemblyInfoInputs.cache
+C:\Users\huser\source\repos\AvivaDvora\DotNet2027_3530_9584\DalList\obj\Debug\net6.0\DalList.AssemblyInfo.cs
+C:\Users\huser\source\repos\AvivaDvora\DotNet2027_3530_9584\DalList\obj\Debug\net6.0\DalList.csproj.CoreCompileInputs.cache
