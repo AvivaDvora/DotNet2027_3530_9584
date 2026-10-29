@@ -1,0 +1,14 @@
+Z:\יד תשפז\פינסקי אהובה\DotNet2027_3530_9584\bin\DalList.deps.json
+Z:\יד תשפז\פינסקי אהובה\DotNet2027_3530_9584\bin\DalList.dll
+Z:\יד תשפז\פינסקי אהובה\DotNet2027_3530_9584\bin\DalList.pdb
+Z:\יד תשפז\פינסקי אהובה\DotNet2027_3530_9584\DalList\obj\Debug\DalList.csproj.AssemblyReference.cache
+Z:\יד תשפז\פינסקי אהובה\DotNet2027_3530_9584\DalList\obj\Debug\DalList.GeneratedMSBuildEditorConfig.editorconfig
+Z:\יד תשפז\פינסקי אהובה\DotNet2027_3530_9584\DalList\obj\Debug\DalList.AssemblyInfoInputs.cache
+Z:\יד תשפז\פינסקי אהובה\DotNet2027_3530_9584\DalList\obj\Debug\DalList.AssemblyInfo.cs
+Z:\יד תשפז\פינסקי אהובה\DotNet2027_3530_9584\DalList\obj\Debug\DalList.csproj.CoreCompileInputs.cache
+Z:\יד תשפז\פינסקי אהובה\DotNet2027_3530_9584\DalList\obj\Debug\DalList.sourcelink.json
+Z:\יד תשפז\פינסקי אהובה\DotNet2027_3530_9584\DalList\obj\Debug\DalList.csproj.Up2Date
+Z:\יד תשפז\פינסקי אהובה\DotNet2027_3530_9584\DalList\obj\Debug\DalList.dll
+Z:\יד תשפז\פינסקי אהובה\DotNet2027_3530_9584\DalList\obj\Debug\refint\DalList.dll
+Z:\יד תשפז\פינסקי אהובה\DotNet2027_3530_9584\DalList\obj\Debug\DalList.pdb
+Z:\יד תשפז\פינסקי אהובה\DotNet2027_3530_9584\DalList\obj\Debug\ref\DalList.dll
