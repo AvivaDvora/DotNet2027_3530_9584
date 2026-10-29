@@ -34,7 +34,7 @@ namespace Dal
                     return;
                 }
             }
-            throw new DalDoesNotExistException("Question with this ID does not exist");
+            throw new IdNotFoundException("Question with this ID does not exist");
         }
 
         public void Delete(int id)
@@ -47,7 +47,7 @@ namespace Dal
                     return;
                 }
             }
-            throw new DalDoesNotExistException("Question with this ID does not exist");
+            throw new IdNotFoundException("Question with this ID does not exist");
         }
     }
 }

@@ -7,8 +7,6 @@ namespace Dal
     {
         public void Add(Answer item)
         {
-            if (DataSource.Answers.Any(a => a?.Id == item.Id))
-                throw new DalAlreadyExistsException("Answer with this ID already exists");
             DataSource.Answers.Add(item);
         }
 
@@ -31,7 +29,7 @@ namespace Dal
             for (int i = 0; i < DataSource.Answers.Count; i++)
                 if (DataSource.Answers[i]?.Id == item.Id)
                 { DataSource.Answers[i] = item; return; }
-            throw new DalDoesNotExistException("Answer with this ID does not exist");
+            throw new IdNotFoundException("Answer with this ID does not exist");
         }
 
         public void Delete(int id)
@@ -39,7 +37,7 @@ namespace Dal
             for (int i = 0; i < DataSource.Answers.Count; i++)
                 if (DataSource.Answers[i]?.Id == id)
                 { DataSource.Answers.RemoveAt(i); return; }
-            throw new DalDoesNotExistException("Answer with this ID does not exist");
+           throw new IdNotFoundException("Answer with this ID does not exist");
         }
     }
 }

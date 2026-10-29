@@ -12,7 +12,7 @@ namespace Dal
         {
           
             if (DataSource.Students.Any(s => s?.Id == item.Id))
-                throw new DalAlreadyExistsException("Student with this ID already exists");
+                throw new IdExistException("Student with this ID already exists");
 
             DataSource.Students.Add(item);
             return item.Id;
@@ -21,7 +21,9 @@ namespace Dal
      
         public Student? Read(int id)
         {
-            return DataSource.Students.FirstOrDefault(s => s?.Id == id);
+            var student = DataSource.Students.FirstOrDefault(s => s.Id == id);
+            if (student == null)throw new IdNotFoundException("Student with this ID dont exists");
+            return student;
         }
 
         
@@ -40,7 +42,7 @@ namespace Dal
                     return;
                 }
             }
-            throw new DalDoesNotExistException("Student with this ID does not exist");
+            throw new IdNotFoundException("Student with this ID does not exist");
         }
 
         public void Delete(int id)
@@ -53,7 +55,7 @@ namespace Dal
                     return;
                 }
             }
-            throw new DalDoesNotExistException("Student with this ID does not exist");
+              throw new IdNotFoundException("Student with this ID does not exist");
         }
     }
 }

@@ -11,7 +11,7 @@ namespace Dal
                     q?.StudentId == item.StudentId &&
                     q?.TestId == item.TestId &&
                     q?.QuestionId == item.QuestionId))
-                throw new DalAlreadyExistsException("QuestionForStudent with this key already exists");
+                throw new  throw new DalAlreadyExistsException("Answer with this ID already exists");
             DataSource.QuestionsForStudent.Add(item);
             return 0;
         }
@@ -44,7 +44,7 @@ namespace Dal
         // ← גרסת ICrud עם int
         public void Delete(int id)
         {
-            throw new DalDoesNotExistException("QuestionForStudent with this ID does not exist");
+           throw new IdNotFoundException("Student with this ID dont exists")
         }
 
         // גרסת המפתח המשולש
@@ -55,7 +55,7 @@ namespace Dal
                     DataSource.QuestionsForStudent[i]?.TestId == testId &&
                     DataSource.QuestionsForStudent[i]?.QuestionId == questionId)
                 { DataSource.QuestionsForStudent.RemoveAt(i); return; }
-            throw new DalDoesNotExistException("QuestionForStudent with this key does not exist");
+            throw new IdNotFoundException("QuestionForStudent with this key does not exist");
         }
     }
 }
