@@ -218,19 +218,19 @@ public static void MainMenu()
         switch (choice)
         {
             case 1:
-                SubMenu("Answer");
+                PrintSubMenu("Answer");
                 break;
             case 2:
-                SubMenu("Question");
+                PrintSubMenu("Question");
                 break;
             case 3:
-                SubMenu("Student");
+                PrintSubMenu("Student");
                 break;
             case 4:
-                SubMenu("Test");
+                PrintSubMenu("Test");
                 break;
             case 5:
-                SubMenu("QuestionForStudent");
+                PrintSubMenu("QuestionForStudent");
             case 0:
                 Console.WriteLine("Exiting...");
                 break;
@@ -255,82 +255,201 @@ public static int PrintMainMenu()
 
 public static int PrintSubMenu(string item)
 {
-            Switch(item)
+    int chise;
+    switch(item)
         {
         case "Answer":
 
             Console.WriteLine("Answer Submenu:\n");
 
             Console.WriteLine("1. Add Answer");
-            AddAnswer();
+
             Console.WriteLine("2. Get Answer by ID");
-            Read(item);
+
             Console.WriteLine("3. Get All Answers");
-            ReadAll(item);
+
             Console.WriteLine("4. Update Answer");
-            UpdateAnswer();
+
             Console.WriteLine("5. Delete Answer");
-            Delete(item);
+
 
 
             break;
         case "Question":
             Console.WriteLine("Question Submenu:\n");
             Console.WriteLine("1. Add Question");
-            AddQuestion();
+
             Console.WriteLine("2. Get Question by ID");
-            read(item);
+
             Console.WriteLine("3. Get All Questions");
-            ReadAll(item);
+
             Console.WriteLine("4. Update Question");
-            UpdateQuestion();
+
             Console.WriteLine("5. Delete Question");
-            Delete(item);
+
             break;
         case "Student":
             Console.WriteLine("Student Submenu:\n");
             Console.WriteLine("1. Add Student");
-            AddStudent();
+
             Console.WriteLine("2. Get Student by ID");
-            Read(item);
+
             Console.WriteLine("3. Get All Students");
-            ReadAll(item);
+
             Console.WriteLine("4. Update Student");
-            UpdateStudent(item)
+
             Console.WriteLine("5. Delete Student");
-            Delete(item);
+
             break;
         case "Test":
             Console.WriteLine("Test Submenu:\n");
             Console.WriteLine("1. Add Test");
-            AddTest();
+
             Console.WriteLine("2. Get Test by ID");
-            read(item);
+
             Console.WriteLine("3. Get All Tests");
-            ReadAll(item);
+
             Console.WriteLine("4. Update Test");
-            UpdateTest();
+
             Console.WriteLine("5. Delete Test");
-            Delete(item);
+
             break;
         case "QuestionForStudent":
             Console.WriteLine("QuestionForStudent Submenu:\n");
             Console.WriteLine("1. Add QuestionForStudent");
-            AddQuestionForStudent();
+
             Console.WriteLine("2. Get QuestionForStudent by IDs");
-            Read(item);
+
             Console.WriteLine("3. Get All QuestionForStudents");
-            ReadAll(item);
+
             Console.WriteLine("4. Update QuestionForStudent");
-            UpdateQuestionForStudent();
+
             Console.WriteLine("5. Delete QuestionForStudent");
-            Delete(item);
+
             break;
         default:
             throw new ArgumentException($"Unknown item: {item}");
         }
+        chise = consol.ReadLine();
     }
 }
+public static void SubMenu(string item, int chise)
+{
+    switch (chise)
+    {
+        case 1:
+            switch (item)
+            {
+                case "Answer":
+                    AddAnswer();
+                    break;
+                case "Question":
+                    AddQuestion();
+                    break;
+                case "Student":
+                    AddStudent();
+                    break;
+                case "Test":
+                    AddTest();
+                    break;
+                case "QuestionForStudent":
+                    AddQuestionForStudent();
+                    break;
+                default: throw new ArgumentException($"Unknown item: {item}");
+                    break
+            }
+            break;
+        case 2:
+            switch (item)
+            {
+                case "Answer":
+                    Read(s_dal.Answer);
+                    break;
+                case "Question":
+                    Read(s_dal.Question);
+                    break;
+                case "Student":
+                    Read(s_dal.Student);
+                    break;
+                case "Test":
+                    Read(s_dal.Test);
+                    break;
+                case "QuestionForStudent":
+                    Read(s_dal.QuestionForStudent);
+                    break;
+                default:
+                    throw new ArgumentException($"Unknown item: {item}");
+                    break;
+            } break;
+
+        case 3:
+            switch (item)
+            {
+                case "Answer":
+                    ReadAll(s_dal.Answer);
+                    break;
+                case "Question":
+                    ReadAll(s_dal.Question);
+                    break;
+                case "Student":
+                    ReadAll(s_dal.Student);
+                    break;
+                case "Test":
+                    ReadAll(s_dal.Test);
+                    break;
+                case "QuestionForStudent":
+                    ReadAll(s_dal.QuestionForStudent);
+                    break;
+                default:
+                    throw new ArgumentException($"Unknown item: {item}");
+                    break;
+            } break;
+        case 4:
+            switch (item) {
+                case "Answer":
+                    UpdateAnswer();
+                    break;
+                case "Question":
+                    UpdateQuestion();
+                    break;
+                case "Student":
+                    UpdateStudent();
+                    break;
+                case "Test":
+                    UpdateTest();
+                    break;
+                case "QuestionForStudent":
+                    UpdateQuestionForStudent();
+                    break;
+
+            } break;
+        case 5:
+            switch (item) {
+                case "Answer":
+                    Delete(s_dal.Answer);
+                    break;
+                case "Question":
+                    Delete(s_dal.Question);
+                    break;
+                case "Student":
+                    Delete(s_dal.Student);
+                    break;
+                case "Test":
+                    Delete(s_dal.Test);
+                    break;
+
+                case "QuestionForStudent":
+                    Delete(s_dal.QuestionForStudent);
+                    break;
+            }
+            break;
+        default:
+            Console.WriteLine("Invalid choice. Please try again.");
+            break;
+    break;
+
+    }
+
 
 
 
