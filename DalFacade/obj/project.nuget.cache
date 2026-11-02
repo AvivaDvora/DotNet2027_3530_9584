@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "EX3qa2PJmuM=",
+  "dgSpecHash": "CEbhV5INWTI=",
   "success": true,
   "projectFilePath": "Z:\\יד תשפז\\פינסקי אהובה\\DotNet2027_3530_9584-1\\DalFacade\\DalFacade.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\huser\\.nuget\\packages\\microsoft.net.sdk.compilers.toolset\\9.0.308\\microsoft.net.sdk.compilers.toolset.9.0.308.nupkg.sha512"
+  ],
   "logs": []
 }

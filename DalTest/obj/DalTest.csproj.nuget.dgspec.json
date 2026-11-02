@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "z:\\יד תשפז\\פינסקי אהובה\\DotNet2027_3530_9584-1\\DalTest\\DalTest.csproj": {}
+    "Z:\\יד תשפז\\פינסקי אהובה\\DotNet2027_3530_9584-1\\DalTest\\DalTest.csproj": {}
   },
   "projects": {
     "Z:\\יד תשפז\\פינסקי אהובה\\DotNet2027_3530_9584-1\\DalFacade\\DalFacade.csproj": {
@@ -61,6 +61,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
+              "version": "[9.0.308, 9.0.308]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -101,6 +107,9 @@
             "projectReferences": {
               "Z:\\יד תשפז\\פינסקי אהובה\\DotNet2027_3530_9584-1\\DalFacade\\DalFacade.csproj": {
                 "projectPath": "Z:\\יד תשפז\\פינסקי אהובה\\DotNet2027_3530_9584-1\\DalFacade\\DalFacade.csproj"
+              },
+              "Z:\\יד תשפז\\פינסקי אהובה\\DotNet2027_3530_9584-1\\Tools\\Tools.csproj": {
+                "projectPath": "Z:\\יד תשפז\\פינסקי אהובה\\DotNet2027_3530_9584-1\\Tools\\Tools.csproj"
               }
             }
           }
@@ -137,6 +146,10 @@
               "version": "[8.0.22, 8.0.22]"
             },
             {
+              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
+              "version": "[9.0.308, 9.0.308]"
+            },
+            {
               "name": "Microsoft.NETCore.App.Ref",
               "version": "[8.0.22, 8.0.22]"
             },
@@ -154,14 +167,14 @@
         }
       }
     },
-    "z:\\יד תשפז\\פינסקי אהובה\\DotNet2027_3530_9584-1\\DalTest\\DalTest.csproj": {
+    "Z:\\יד תשפז\\פינסקי אהובה\\DotNet2027_3530_9584-1\\DalTest\\DalTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "z:\\יד תשפז\\פינסקי אהובה\\DotNet2027_3530_9584-1\\DalTest\\DalTest.csproj",
+        "projectUniqueName": "Z:\\יד תשפז\\פינסקי אהובה\\DotNet2027_3530_9584-1\\DalTest\\DalTest.csproj",
         "projectName": "DalTest",
-        "projectPath": "z:\\יד תשפז\\פינסקי אהובה\\DotNet2027_3530_9584-1\\DalTest\\DalTest.csproj",
+        "projectPath": "Z:\\יד תשפז\\פינסקי אהובה\\DotNet2027_3530_9584-1\\DalTest\\DalTest.csproj",
         "packagesPath": "C:\\Users\\huser\\.nuget\\packages\\",
-        "outputPath": "z:\\יד תשפז\\פינסקי אהובה\\DotNet2027_3530_9584-1\\DalTest\\obj\\",
+        "outputPath": "Z:\\יד תשפז\\פינסקי אהובה\\DotNet2027_3530_9584-1\\DalTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -188,6 +201,9 @@
               },
               "Z:\\יד תשפז\\פינסקי אהובה\\DotNet2027_3530_9584-1\\DalList\\DalList.csproj": {
                 "projectPath": "Z:\\יד תשפז\\פינסקי אהובה\\DotNet2027_3530_9584-1\\DalList\\DalList.csproj"
+              },
+              "Z:\\יד תשפז\\פינסקי אהובה\\DotNet2027_3530_9584-1\\Tools\\Tools.csproj": {
+                "projectPath": "Z:\\יד תשפז\\פינסקי אהובה\\DotNet2027_3530_9584-1\\Tools\\Tools.csproj"
               }
             }
           }
@@ -224,6 +240,10 @@
               "version": "[8.0.22, 8.0.22]"
             },
             {
+              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
+              "version": "[9.0.308, 9.0.308]"
+            },
+            {
               "name": "Microsoft.NETCore.App.Host.win-x64",
               "version": "[8.0.22, 8.0.22]"
             },
@@ -243,6 +263,22 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
         }
+      }
+    },
+    "Z:\\יד תשפז\\פינסקי אהובה\\DotNet2027_3530_9584-1\\Tools\\Tools.csproj": {
+      "restore": {
+        "projectUniqueName": "Z:\\יד תשפז\\פינסקי אהובה\\DotNet2027_3530_9584-1\\Tools\\Tools.csproj",
+        "projectName": "Tools",
+        "projectPath": "Z:\\יד תשפז\\פינסקי אהובה\\DotNet2027_3530_9584-1\\Tools\\Tools.csproj",
+        "UsingMicrosoftNETSdk": false,
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
       }
     }
   }

@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "/KG187pN5hE=",
+  "dgSpecHash": "HPw8+Ia6b98=",
   "success": true,
-  "projectFilePath": "z:\\יד תשפז\\פינסקי אהובה\\DotNet2027_3530_9584-1\\DalTest\\DalTest.csproj",
+  "projectFilePath": "Z:\\יד תשפז\\פינסקי אהובה\\DotNet2027_3530_9584-1\\DalTest\\DalTest.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\huser\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.22\\microsoft.netcore.app.ref.8.0.22.nupkg.sha512",
+    "C:\\Users\\huser\\.nuget\\packages\\microsoft.net.sdk.compilers.toolset\\9.0.308\\microsoft.net.sdk.compilers.toolset.9.0.308.nupkg.sha512",
     "C:\\Users\\huser\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.22\\microsoft.windowsdesktop.app.ref.8.0.22.nupkg.sha512",
+    "C:\\Users\\huser\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.22\\microsoft.netcore.app.ref.8.0.22.nupkg.sha512",
     "C:\\Users\\huser\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.22\\microsoft.aspnetcore.app.ref.8.0.22.nupkg.sha512",
     "C:\\Users\\huser\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.22\\microsoft.netcore.app.host.win-x64.8.0.22.nupkg.sha512"
   ],

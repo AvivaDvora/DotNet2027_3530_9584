@@ -1,6 +1,8 @@
 using DO;
 using Dal;
 using DalApi;
+using Tools;
+using System.Reflection;
 namespace DalTest;
 
 public class Program
@@ -19,6 +21,8 @@ public class Program
         catch (Exception ex)
         {
             Console.WriteLine($"Error: {ex.Message}");
+            Tools.LogManager.writeToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, ex.Message);
+
         }
     }
 
@@ -232,6 +236,9 @@ public class Program
                 case 5:
                     PrintSubMenu("QuestionForStudent");
                     break;
+                case 6:
+                    Tools.LogManager.clearLog();
+                    break;
                 case 0:
                     Console.WriteLine("Exiting...");
                     break;
@@ -245,11 +252,13 @@ public class Program
     public static int PrintMainMenu()
     {
         Console.WriteLine("Main Menu:\n");
-        Console.WriteLine("לתשובה הקש 1 \n ");
-        Console.WriteLine("לשאלה הקש 2\n ");
-        Console.WriteLine("למבחן הקש 4 \n ");
-        Console.WriteLine("לשאלה עבור תלמיד הקש 5 \n ");
-        Console.WriteLine("ליציאה 6\n");
+        Console.WriteLine("to answer press 1 \n ");
+        Console.WriteLine("to qeustion press 2\n ");
+        Console.WriteLine("to student press 4 \n ");
+        Console.WriteLine("to test press 4 \n ");
+        Console.WriteLine("to qeustion to student press 5 \n ");
+        Console.WriteLine("6  clear log folder ");
+        Console.WriteLine("exit 0\n");
         return Convert.ToInt32(Console.ReadLine());
 
     }

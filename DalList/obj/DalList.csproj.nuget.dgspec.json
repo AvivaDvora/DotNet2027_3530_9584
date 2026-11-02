@@ -61,6 +61,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
+              "version": "[9.0.308, 9.0.308]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -101,6 +107,9 @@
             "projectReferences": {
               "Z:\\יד תשפז\\פינסקי אהובה\\DotNet2027_3530_9584-1\\DalFacade\\DalFacade.csproj": {
                 "projectPath": "Z:\\יד תשפז\\פינסקי אהובה\\DotNet2027_3530_9584-1\\DalFacade\\DalFacade.csproj"
+              },
+              "Z:\\יד תשפז\\פינסקי אהובה\\DotNet2027_3530_9584-1\\Tools\\Tools.csproj": {
+                "projectPath": "Z:\\יד תשפז\\פינסקי אהובה\\DotNet2027_3530_9584-1\\Tools\\Tools.csproj"
               }
             }
           }
@@ -137,6 +146,10 @@
               "version": "[8.0.22, 8.0.22]"
             },
             {
+              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
+              "version": "[9.0.308, 9.0.308]"
+            },
+            {
               "name": "Microsoft.NETCore.App.Ref",
               "version": "[8.0.22, 8.0.22]"
             },
@@ -152,6 +165,22 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
         }
+      }
+    },
+    "Z:\\יד תשפז\\פינסקי אהובה\\DotNet2027_3530_9584-1\\Tools\\Tools.csproj": {
+      "restore": {
+        "projectUniqueName": "Z:\\יד תשפז\\פינסקי אהובה\\DotNet2027_3530_9584-1\\Tools\\Tools.csproj",
+        "projectName": "Tools",
+        "projectPath": "Z:\\יד תשפז\\פינסקי אהובה\\DotNet2027_3530_9584-1\\Tools\\Tools.csproj",
+        "UsingMicrosoftNETSdk": false,
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
       }
     }
   }
