@@ -13,6 +13,7 @@ public class Program
 
     public static void Main(string[] args)
     {
+
         Initialization.Initialize(s_dal);
         try
         {

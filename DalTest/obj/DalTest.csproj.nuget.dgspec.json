@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "Z:\\יד תשפז\\פינסקי אהובה\\DotNet2027_3530_9584-1\\DalTest\\DalTest.csproj": {}
+    "C:\\Users\\huser\\Source\\Repos\\DotNet2027_3530_9584\\DalTest\\DalTest.csproj": {}
   },
   "projects": {
-    "Z:\\יד תשפז\\פינסקי אהובה\\DotNet2027_3530_9584-1\\DalFacade\\DalFacade.csproj": {
+    "C:\\Users\\huser\\Source\\Repos\\DotNet2027_3530_9584\\DalFacade\\DalFacade.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\יד תשפז\\פינסקי אהובה\\DotNet2027_3530_9584-1\\DalFacade\\DalFacade.csproj",
+        "projectUniqueName": "C:\\Users\\huser\\Source\\Repos\\DotNet2027_3530_9584\\DalFacade\\DalFacade.csproj",
         "projectName": "DalFacade",
-        "projectPath": "Z:\\יד תשפז\\פינסקי אהובה\\DotNet2027_3530_9584-1\\DalFacade\\DalFacade.csproj",
+        "projectPath": "C:\\Users\\huser\\Source\\Repos\\DotNet2027_3530_9584\\DalFacade\\DalFacade.csproj",
         "packagesPath": "C:\\Users\\huser\\.nuget\\packages\\",
-        "outputPath": "Z:\\יד תשפז\\פינסקי אהובה\\DotNet2027_3530_9584-1\\DalFacade\\obj\\",
+        "outputPath": "C:\\Users\\huser\\Source\\Repos\\DotNet2027_3530_9584\\DalFacade\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -22,17 +22,20 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
+          "c:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {}
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\huser\\Source\\Repos\\DotNet2027_3530_9584\\Tools\\Tools.csproj": {
+                "projectPath": "C:\\Users\\huser\\Source\\Repos\\DotNet2027_3530_9584\\Tools\\Tools.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -48,8 +51,8 @@
         "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",
@@ -61,29 +64,23 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
-              "version": "[9.0.308, 9.0.308]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "c:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "Z:\\יד תשפז\\פינסקי אהובה\\DotNet2027_3530_9584-1\\DalList\\DalList.csproj": {
+    "C:\\Users\\huser\\Source\\Repos\\DotNet2027_3530_9584\\DalList\\DalList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\יד תשפז\\פינסקי אהובה\\DotNet2027_3530_9584-1\\DalList\\DalList.csproj",
+        "projectUniqueName": "C:\\Users\\huser\\Source\\Repos\\DotNet2027_3530_9584\\DalList\\DalList.csproj",
         "projectName": "DalList",
-        "projectPath": "Z:\\יד תשפז\\פינסקי אהובה\\DotNet2027_3530_9584-1\\DalList\\DalList.csproj",
+        "projectPath": "C:\\Users\\huser\\Source\\Repos\\DotNet2027_3530_9584\\DalList\\DalList.csproj",
         "packagesPath": "C:\\Users\\huser\\.nuget\\packages\\",
-        "outputPath": "Z:\\יד תשפז\\פינסקי אהובה\\DotNet2027_3530_9584-1\\DalList\\obj\\",
+        "outputPath": "C:\\Users\\huser\\Source\\Repos\\DotNet2027_3530_9584\\DalList\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -97,19 +94,18 @@
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
+          "c:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "Z:\\יד תשפז\\פינסקי אהובה\\DotNet2027_3530_9584-1\\DalFacade\\DalFacade.csproj": {
-                "projectPath": "Z:\\יד תשפז\\פינסקי אהובה\\DotNet2027_3530_9584-1\\DalFacade\\DalFacade.csproj"
+              "C:\\Users\\huser\\Source\\Repos\\DotNet2027_3530_9584\\DalFacade\\DalFacade.csproj": {
+                "projectPath": "C:\\Users\\huser\\Source\\Repos\\DotNet2027_3530_9584\\DalFacade\\DalFacade.csproj"
               },
-              "Z:\\יד תשפז\\פינסקי אהובה\\DotNet2027_3530_9584-1\\Tools\\Tools.csproj": {
-                "projectPath": "Z:\\יד תשפז\\פינסקי אהובה\\DotNet2027_3530_9584-1\\Tools\\Tools.csproj"
+              "C:\\Users\\huser\\Source\\Repos\\DotNet2027_3530_9584\\Tools\\Tools.csproj": {
+                "projectPath": "C:\\Users\\huser\\Source\\Repos\\DotNet2027_3530_9584\\Tools\\Tools.csproj"
               }
             }
           }
@@ -140,41 +136,23 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.22, 8.0.22]"
-            },
-            {
-              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
-              "version": "[9.0.308, 9.0.308]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.22, 8.0.22]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.22, 8.0.22]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "c:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "Z:\\יד תשפז\\פינסקי אהובה\\DotNet2027_3530_9584-1\\DalTest\\DalTest.csproj": {
+    "C:\\Users\\huser\\Source\\Repos\\DotNet2027_3530_9584\\DalTest\\DalTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\יד תשפז\\פינסקי אהובה\\DotNet2027_3530_9584-1\\DalTest\\DalTest.csproj",
+        "projectUniqueName": "C:\\Users\\huser\\Source\\Repos\\DotNet2027_3530_9584\\DalTest\\DalTest.csproj",
         "projectName": "DalTest",
-        "projectPath": "Z:\\יד תשפז\\פינסקי אהובה\\DotNet2027_3530_9584-1\\DalTest\\DalTest.csproj",
+        "projectPath": "C:\\Users\\huser\\Source\\Repos\\DotNet2027_3530_9584\\DalTest\\DalTest.csproj",
         "packagesPath": "C:\\Users\\huser\\.nuget\\packages\\",
-        "outputPath": "Z:\\יד תשפז\\פינסקי אהובה\\DotNet2027_3530_9584-1\\DalTest\\obj\\",
+        "outputPath": "C:\\Users\\huser\\Source\\Repos\\DotNet2027_3530_9584\\DalTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -188,22 +166,21 @@
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
+          "c:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "Z:\\יד תשפז\\פינסקי אהובה\\DotNet2027_3530_9584-1\\DalFacade\\DalFacade.csproj": {
-                "projectPath": "Z:\\יד תשפז\\פינסקי אהובה\\DotNet2027_3530_9584-1\\DalFacade\\DalFacade.csproj"
+              "C:\\Users\\huser\\Source\\Repos\\DotNet2027_3530_9584\\DalFacade\\DalFacade.csproj": {
+                "projectPath": "C:\\Users\\huser\\Source\\Repos\\DotNet2027_3530_9584\\DalFacade\\DalFacade.csproj"
               },
-              "Z:\\יד תשפז\\פינסקי אהובה\\DotNet2027_3530_9584-1\\DalList\\DalList.csproj": {
-                "projectPath": "Z:\\יד תשפז\\פינסקי אהובה\\DotNet2027_3530_9584-1\\DalList\\DalList.csproj"
+              "C:\\Users\\huser\\Source\\Repos\\DotNet2027_3530_9584\\DalList\\DalList.csproj": {
+                "projectPath": "C:\\Users\\huser\\Source\\Repos\\DotNet2027_3530_9584\\DalList\\DalList.csproj"
               },
-              "Z:\\יד תשפז\\פינסקי אהובה\\DotNet2027_3530_9584-1\\Tools\\Tools.csproj": {
-                "projectPath": "Z:\\יד תשפז\\פינסקי אהובה\\DotNet2027_3530_9584-1\\Tools\\Tools.csproj"
+              "C:\\Users\\huser\\Source\\Repos\\DotNet2027_3530_9584\\Tools\\Tools.csproj": {
+                "projectPath": "C:\\Users\\huser\\Source\\Repos\\DotNet2027_3530_9584\\Tools\\Tools.csproj"
               }
             }
           }
@@ -234,51 +211,78 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.22, 8.0.22]"
-            },
-            {
-              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
-              "version": "[9.0.308, 9.0.308]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[8.0.22, 8.0.22]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.22, 8.0.22]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.22, 8.0.22]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "c:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "Z:\\יד תשפז\\פינסקי אהובה\\DotNet2027_3530_9584-1\\Tools\\Tools.csproj": {
+    "C:\\Users\\huser\\Source\\Repos\\DotNet2027_3530_9584\\Tools\\Tools.csproj": {
+      "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\יד תשפז\\פינסקי אהובה\\DotNet2027_3530_9584-1\\Tools\\Tools.csproj",
+        "projectUniqueName": "C:\\Users\\huser\\Source\\Repos\\DotNet2027_3530_9584\\Tools\\Tools.csproj",
         "projectName": "Tools",
-        "projectPath": "Z:\\יד תשפז\\פינסקי אהובה\\DotNet2027_3530_9584-1\\Tools\\Tools.csproj",
-        "UsingMicrosoftNETSdk": false,
+        "projectPath": "C:\\Users\\huser\\Source\\Repos\\DotNet2027_3530_9584\\Tools\\Tools.csproj",
+        "packagesPath": "C:\\Users\\huser\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\huser\\Source\\Repos\\DotNet2027_3530_9584\\Tools\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\huser\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "c:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
         "frameworks": {
-          "net472": {
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
-        }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
-        "net472": {}
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "c:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+        }
       }
     }
   }

@@ -20,11 +20,11 @@ internal static class DataSource
         internal static int NextTestId { get { return runningTestId++; } }
 
         internal const int startQuestionId = 100;
-        private static int runningQuestionId = startTestId;
+        private static int runningQuestionId = startQuestionId;
         internal static int NextQuestionId { get { return runningQuestionId++; } }
 
         internal const int startAnswerId = 100;
-        private static int runningAnswerId = startTestId;
+        private static int runningAnswerId = startAnswerId;
         internal static int NextAnswerId { get { return runningAnswerId++; } }
 
 

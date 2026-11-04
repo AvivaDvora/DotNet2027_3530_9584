@@ -28,3 +28,20 @@ Z:\יד תשפז\פינסקי אהובה\DotNet2027_3530_9584-1\DalFacade\obj\De
 Z:\יד תשפז\פינסקי אהובה\DotNet2027_3530_9584-1\DalFacade\obj\Debug\refint\DalFacade.dll
 Z:\יד תשפז\פינסקי אהובה\DotNet2027_3530_9584-1\DalFacade\obj\Debug\DalFacade.pdb
 Z:\יד תשפז\פינסקי אהובה\DotNet2027_3530_9584-1\DalFacade\obj\Debug\ref\DalFacade.dll
+C:\Users\huser\Source\Repos\DotNet2027_3530_9584\bin\DalFacade.deps.json
+C:\Users\huser\Source\Repos\DotNet2027_3530_9584\bin\DalFacade.dll
+C:\Users\huser\Source\Repos\DotNet2027_3530_9584\bin\DalFacade.pdb
+C:\Users\huser\Source\Repos\DotNet2027_3530_9584\DalFacade\obj\Debug\DalFacade.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\huser\Source\Repos\DotNet2027_3530_9584\DalFacade\obj\Debug\DalFacade.AssemblyInfoInputs.cache
+C:\Users\huser\Source\Repos\DotNet2027_3530_9584\DalFacade\obj\Debug\DalFacade.AssemblyInfo.cs
+C:\Users\huser\Source\Repos\DotNet2027_3530_9584\DalFacade\obj\Debug\DalFacade.csproj.CoreCompileInputs.cache
+C:\Users\huser\Source\Repos\DotNet2027_3530_9584\DalFacade\obj\Debug\DalFacade.sourcelink.json
+C:\Users\huser\Source\Repos\DotNet2027_3530_9584\DalFacade\obj\Debug\DalFacade.dll
+C:\Users\huser\Source\Repos\DotNet2027_3530_9584\DalFacade\obj\Debug\refint\DalFacade.dll
+C:\Users\huser\Source\Repos\DotNet2027_3530_9584\DalFacade\obj\Debug\DalFacade.pdb
+C:\Users\huser\Source\Repos\DotNet2027_3530_9584\DalFacade\obj\Debug\ref\DalFacade.dll
+C:\Users\huser\Source\Repos\DotNet2027_3530_9584\DalFacade\obj\Debug\DalFacade.csproj.AssemblyReference.cache
+C:\Users\huser\Source\Repos\DotNet2027_3530_9584\DalFacade\obj\Debug\DalFacade.csproj.Up2Date
+C:\bin\DalFacade.deps.json
+C:\bin\DalFacade.dll
+C:\bin\DalFacade.pdb

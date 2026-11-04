@@ -21,3 +21,25 @@ z:\יד תשפז\פינסקי אהובה\DotNet2027_3530_9584-1\DalTest\obj\Debu
 z:\יד תשפז\פינסקי אהובה\DotNet2027_3530_9584-1\DalTest\obj\Debug\DalTest.pdb
 z:\יד תשפז\פינסקי אהובה\DotNet2027_3530_9584-1\DalTest\obj\Debug\DalTest.genruntimeconfig.cache
 z:\יד תשפז\פינסקי אהובה\DotNet2027_3530_9584-1\DalTest\obj\Debug\ref\DalTest.dll
+C:\Users\huser\Source\Repos\DotNet2027_3530_9584\DalTest\obj\Debug\DalTest.csproj.AssemblyReference.cache
+C:\Users\huser\Source\Repos\DotNet2027_3530_9584\DalTest\obj\Debug\DalTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\huser\Source\Repos\DotNet2027_3530_9584\DalTest\obj\Debug\DalTest.AssemblyInfoInputs.cache
+C:\Users\huser\Source\Repos\DotNet2027_3530_9584\DalTest\obj\Debug\DalTest.AssemblyInfo.cs
+C:\Users\huser\Source\Repos\DotNet2027_3530_9584\DalTest\obj\Debug\DalTest.csproj.CoreCompileInputs.cache
+C:\Users\huser\Source\Repos\DotNet2027_3530_9584\DalTest\obj\Debug\DalTest.sourcelink.json
+C:\Users\huser\Source\Repos\DotNet2027_3530_9584\bin\DalTest.exe
+C:\Users\huser\Source\Repos\DotNet2027_3530_9584\bin\DalTest.deps.json
+C:\Users\huser\Source\Repos\DotNet2027_3530_9584\bin\DalTest.runtimeconfig.json
+C:\Users\huser\Source\Repos\DotNet2027_3530_9584\bin\DalTest.dll
+C:\Users\huser\Source\Repos\DotNet2027_3530_9584\bin\DalTest.pdb
+C:\Users\huser\Source\Repos\DotNet2027_3530_9584\DalTest\obj\Debug\DalTest.csproj.Up2Date
+C:\Users\huser\Source\Repos\DotNet2027_3530_9584\DalTest\obj\Debug\DalTest.dll
+C:\Users\huser\Source\Repos\DotNet2027_3530_9584\DalTest\obj\Debug\refint\DalTest.dll
+C:\Users\huser\Source\Repos\DotNet2027_3530_9584\DalTest\obj\Debug\DalTest.pdb
+C:\Users\huser\Source\Repos\DotNet2027_3530_9584\DalTest\obj\Debug\DalTest.genruntimeconfig.cache
+C:\Users\huser\Source\Repos\DotNet2027_3530_9584\DalTest\obj\Debug\ref\DalTest.dll
+C:\bin\DalTest.exe
+C:\bin\DalTest.deps.json
+C:\bin\DalTest.runtimeconfig.json
+C:\bin\DalTest.dll
+C:\bin\DalTest.pdb
