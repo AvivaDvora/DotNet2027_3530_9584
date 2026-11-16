@@ -34,4 +34,5 @@ public interface IQuestionForStudent : ICrud<QuestionForStudent>
     /// <param name="questionId">מזהה השאלה.</param>
     /// <exception cref="DalDoesNotExistException">כאשר לא קיימת רשומה עם מפתח משולב כזה.</exception>
     void Delete(int studentId, int testId, int questionId);
+    QuestionForStudent? Read(Func<T, bool> filter);
 }

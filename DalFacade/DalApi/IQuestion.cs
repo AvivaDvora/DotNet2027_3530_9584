@@ -30,4 +30,5 @@ public interface IQuestion: ICrud<Question>
     /// <param name="id">מזהה השאלה למחיקה.</param>
     /// <exception cref="DalDoesNotExistException">כאשר לא קיימת שאלה עם מזהה כזה.</exception>
     void Delete(int id);
+    Question? Read(Func<T, bool> filter);
 }

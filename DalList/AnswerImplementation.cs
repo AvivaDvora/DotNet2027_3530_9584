@@ -70,5 +70,12 @@ namespace Dal
                 }
             throw new IdNotFoundException("Answer with this ID does not exist");
         }
+        public QuestionForStudent? Read(Func<T, bool> filter)
+        {
+            Tools.LogManager.writeToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "starting");
+            Tools.LogManager.writeToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "finish");
+            return DataSource.Answers.FirstOrDefault(filter);
+        }
+
     }
 }

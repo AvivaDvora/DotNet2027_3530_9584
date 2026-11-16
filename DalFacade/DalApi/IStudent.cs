@@ -29,4 +29,5 @@ public interface IStudent : ICrud<Student>
     /// <param name="id">מזהה התלמיד למחיקה.</param>
     /// <exception cref="DalDoesNotExistException">כאשר לא קיים תלמיד עם מזהה כזה.</exception>
     void Delete(int id);
+    Student? Read(Func<T, bool> filter);
 }

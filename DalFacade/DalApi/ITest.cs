@@ -30,4 +30,5 @@ public interface ITest : ICrud<Test>
     /// <param name="id">מזהה המבחן למחיקה.</param>
     /// <exception cref="DalDoesNotExistException">כאשר לא קיים מבחן עם מזהה כזה.</exception>
     void Delete(int id);
+    Test? Read(Func<T, bool> filter);
 }

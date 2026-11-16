@@ -69,5 +69,11 @@ namespace Dal
             }
             throw new IdNotFoundException("Test with this ID does not exist");
         }
+        public Test? Read(Func<Test, bool> filter)
+        {
+            Tools.LogManager.writeToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "started");
+            Tools.LogManager.writeToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "finish");
+            return DataSource.Tests.FirstOrDefault(t => t != null && filter(t));
+        }
     }
 }

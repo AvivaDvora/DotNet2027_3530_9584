@@ -32,4 +32,6 @@ public interface IAnswer : ICrud<Answer>
     void Delete(int id);
     ///<summary> הוספת תשובה</summary>
     int Create(Answer item);
+
+    Answer? Read(Func<T, bool> filter);
 }

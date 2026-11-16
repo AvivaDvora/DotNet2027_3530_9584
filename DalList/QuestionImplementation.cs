@@ -63,5 +63,11 @@ namespace Dal
             }
             throw new IdNotFoundException("Question with this ID does not exist");
         }
+        public Question? Read(Func<T, bool> filter)
+        {
+            Tools.LogManager.writeToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "started");
+            Tools.LogManager.writeToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "finish");
+            return DataSource.Questions.FirstOrDefault(q => filter((T)(object)q));
+        }
     }
 }

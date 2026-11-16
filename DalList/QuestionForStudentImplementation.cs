@@ -94,5 +94,11 @@ namespace Dal
 
             throw new IdNotFoundException("QuestionForStudent with this key does not exist");
         }
+        public QuestionForStudent? Read(Func<QuestionForStudent, bool> filter)
+        {
+            Tools.LogManager.writeToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "started");
+            Tools.LogManager.writeToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "finish");
+            return DataSource.QuestionsForStudent.FirstOrDefault(filter);
+        }
     }
 }

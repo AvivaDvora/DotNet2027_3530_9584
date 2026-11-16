@@ -76,5 +76,13 @@ namespace Dal
             }
               throw new IdNotFoundException("Student with this ID does not exist");
         }
+        public Student? Read(Func<T, bool> filter)
+        {
+            Tools.LogManager.writeToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "started");
+            var student = DataSource.Students.FirstOrDefault(s => filter((T)(object)s));
+            if (student == null) throw new IdNotFoundException("Student with this ID does not exist");
+            Tools.LogManager.writeToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "finish");
+            return student;
+        }
     }
 }
