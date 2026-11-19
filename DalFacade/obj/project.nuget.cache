@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ej66mdq8UpQ=",
+  "dgSpecHash": "ZrwYGEzoWcU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\huser\\Source\\Repos\\DotNet2027_3530_9584\\DalFacade\\DalFacade.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\DELL\\source\\repos\\AvivaDvora\\DotNet2027_3530_9584\\DalFacade\\DalFacade.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.34\\microsoft.netcore.app.ref.8.0.34.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.34\\microsoft.windowsdesktop.app.ref.8.0.34.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.34\\microsoft.aspnetcore.app.ref.8.0.34.nupkg.sha512"
+  ],
   "logs": []
 }
