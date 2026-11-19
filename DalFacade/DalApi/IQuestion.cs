@@ -19,7 +19,7 @@ public interface IQuestion: ICrud<Question>
 
     /// <summary>החזרת כל השאלות שבמאגר.</summary>
     /// <returns>רשימת השאלות.</returns>
-    List<Question> ReadAll();
+    List<Question> ReadAll(Func<T, bool>? filter = null);
 
     /// <summary>עדכון נתוני שאלה קיימת לפי המזהה שלה.</summary>
     /// <param name="item">השאלה המעודכנת.</param>

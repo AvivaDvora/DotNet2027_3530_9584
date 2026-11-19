@@ -35,12 +35,14 @@ namespace Dal
         }
 
         
-        public List<Student> ReadAll()
+        public List<Student> ReadAll(Func<T, bool>? filter = null)
         {
             Tools.LogManager.writeToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "started");
             Tools.LogManager.writeToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "finish");
 
-            return new List<Student>(DataSource.Students);
+            if (filter == null)
+                return new List<Student>(DataSource.Students);
+            return new List<Student>(DataSource.Students.Where(filter));
         }
 
         public void Update(Student item)

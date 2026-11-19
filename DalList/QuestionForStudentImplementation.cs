@@ -38,11 +38,13 @@ namespace Dal
                     q?.TestId == testId &&
                     q?.QuestionId == questionId);
         }
-        public List<QuestionForStudent> ReadAll()
+        public List<QuestionForStudent> ReadAll(Func<T, bool>? filter = null)
         {
             Tools.LogManager.writeToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "started");
             Tools.LogManager.writeToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "finish");
-            return new List<QuestionForStudent>(DataSource.QuestionsForStudent);
+            if (filter == null)
+                return new List<QuestionForStudent>(DataSource.QuestionsForStudent);
+            return new List<QuestionForStudent>(DataSource.QuestionsForStudent.Where(filter));
         }
         public void Update(QuestionForStudent item)
         {

@@ -21,7 +21,7 @@ public interface IQuestionForStudent : ICrud<QuestionForStudent>
 
     /// <summary>החזרת כל רשומות השאלות-לנבחן שבמאגר.</summary>
     /// <returns>רשימת הרשומות.</returns>
-    List<QuestionForStudent> ReadAll();
+    List<QuestionForStudent> ReadAll(Func<T, bool>? filter = null);
 
     /// <summary>עדכון רשומת שאלה-לנבחן קיימת לפי המפתח המשולב.</summary>
     /// <param name="item">הרשומה המעודכנת.</param>

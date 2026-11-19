@@ -45,3 +45,6 @@ C:\Users\huser\Source\Repos\DotNet2027_3530_9584\DalFacade\obj\Debug\DalFacade.c
 C:\bin\DalFacade.deps.json
 C:\bin\DalFacade.dll
 C:\bin\DalFacade.pdb
+C:\Users\DELL\source\repos\AvivaDvora\DotNet2027_3530_9584\DalFacade\obj\Debug\DalFacade.dll
+C:\Users\DELL\source\repos\AvivaDvora\DotNet2027_3530_9584\DalFacade\obj\Debug\refint\DalFacade.dll
+C:\Users\DELL\source\repos\AvivaDvora\DotNet2027_3530_9584\DalFacade\obj\Debug\DalFacade.pdb

@@ -35,12 +35,14 @@ namespace Dal
             return DataSource.Answers.FirstOrDefault(a => a?.Id == id);
         }
 
-        public List<Answer> ReadAll()
+        public List<Answer> ReadAll(Func<T, bool>? filter = null)
         {
             Tools.LogManager.writeToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "starting");
 
             Tools.LogManager.writeToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "finish");
-            return new List<Answer>(DataSource.Answers);
+            if (filter == null)
+                return new List<Answer>(DataSource.Answers);
+            return new List<Answer>(DataSource.Answers.Where(filter));
         }
 
         public void Update(Answer item)

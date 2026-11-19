@@ -18,7 +18,7 @@ public interface IStudent : ICrud<Student>
 
     /// <summary>החזרת כל התלמידים שבמאגר.</summary>
     /// <returns>רשימת התלמידים.</returns>
-    List<Student> ReadAll();
+    List<Student> ReadAll(Func<T, bool>? filter = null);
 
     /// <summary>עדכון נתוני תלמיד קיים לפי המזהה שלו.</summary>
     /// <param name="item">התלמיד המעודכן.</param>

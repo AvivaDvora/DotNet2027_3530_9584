@@ -24,11 +24,13 @@ namespace Dal
             return DataSource.Questions.FirstOrDefault(q => q?.Id == id);
         }
 
-        public List<Question> ReadAll()
+        public List<Question> ReadAll(Func<T, bool>? filter = null)
         {
             Tools.LogManager.writeToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "started");
             Tools.LogManager.writeToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "finish");
-            return new List<Question>(DataSource.Questions);
+            if (filter == null)
+                return new List<Question>(DataSource.Questions);
+            return new List<Question>(DataSource.Questions.Where(filter));
         }
 
         public void Update(Question item)

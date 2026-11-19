@@ -19,7 +19,7 @@ public interface ITest : ICrud<Test>
 
     /// <summary>החזרת כל המבחנים שבמאגר.</summary>
     /// <returns>רשימת המבחנים.</returns>
-    List<Test> ReadAll();
+    List<Test> ReadAll(Func<T, bool>? filter = null);
 
     /// <summary>עדכון נתוני מבחן קיים לפי המזהה שלו.</summary>
     /// <param name="item">המבחן המעודכן.</param>
