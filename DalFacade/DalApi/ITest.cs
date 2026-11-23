@@ -19,7 +19,7 @@ public interface ITest : ICrud<Test>
 
     /// <summary>החזרת כל המבחנים שבמאגר.</summary>
     /// <returns>רשימת המבחנים.</returns>
-    List<Test> ReadAll(Func<T, bool>? filter = null);
+    List<Test> ReadAll(Func<QuestionForStudent, bool>? filter = null);
 
     /// <summary>עדכון נתוני מבחן קיים לפי המזהה שלו.</summary>
     /// <param name="item">המבחן המעודכן.</param>
@@ -30,5 +30,5 @@ public interface ITest : ICrud<Test>
     /// <param name="id">מזהה המבחן למחיקה.</param>
     /// <exception cref="DalDoesNotExistException">כאשר לא קיים מבחן עם מזהה כזה.</exception>
     void Delete(int id);
-    Test? Read(Func<T, bool> filter);
+    Test? Read(Func<Test, bool> filter);
 }
