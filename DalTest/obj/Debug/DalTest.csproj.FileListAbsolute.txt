@@ -49,3 +49,14 @@ C:\Users\huser\source\DotNet2027_3530_9584\DalTest\obj\Debug\DalTest.AssemblyInf
 C:\Users\huser\source\DotNet2027_3530_9584\DalTest\obj\Debug\DalTest.AssemblyInfo.cs
 C:\Users\huser\source\DotNet2027_3530_9584\DalTest\obj\Debug\DalTest.csproj.CoreCompileInputs.cache
 C:\Users\huser\source\DotNet2027_3530_9584\DalTest\obj\Debug\DalTest.sourcelink.json
+C:\Users\huser\source\DotNet2027_3530_9584\bin\DalTest.exe
+C:\Users\huser\source\DotNet2027_3530_9584\bin\DalTest.deps.json
+C:\Users\huser\source\DotNet2027_3530_9584\bin\DalTest.runtimeconfig.json
+C:\Users\huser\source\DotNet2027_3530_9584\bin\DalTest.dll
+C:\Users\huser\source\DotNet2027_3530_9584\bin\DalTest.pdb
+C:\Users\huser\source\DotNet2027_3530_9584\DalTest\obj\Debug\DalTest.csproj.Up2Date
+C:\Users\huser\source\DotNet2027_3530_9584\DalTest\obj\Debug\DalTest.dll
+C:\Users\huser\source\DotNet2027_3530_9584\DalTest\obj\Debug\refint\DalTest.dll
+C:\Users\huser\source\DotNet2027_3530_9584\DalTest\obj\Debug\DalTest.pdb
+C:\Users\huser\source\DotNet2027_3530_9584\DalTest\obj\Debug\DalTest.genruntimeconfig.cache
+C:\Users\huser\source\DotNet2027_3530_9584\DalTest\obj\Debug\ref\DalTest.dll

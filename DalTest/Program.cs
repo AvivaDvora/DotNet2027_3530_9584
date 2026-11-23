@@ -255,7 +255,7 @@ public class Program
         Console.WriteLine("Main Menu:\n");
         Console.WriteLine("to answer press 1 \n ");
         Console.WriteLine("to qeustion press 2\n ");
-        Console.WriteLine("to student press 4 \n ");
+        Console.WriteLine("to student press 3 \n ");
         Console.WriteLine("to test press 4 \n ");
         Console.WriteLine("to qeustion to student press 5 \n ");
         Console.WriteLine("6  clear log folder ");

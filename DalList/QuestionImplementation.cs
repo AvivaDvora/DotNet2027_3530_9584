@@ -24,7 +24,7 @@ namespace Dal
             return DataSource.Questions.FirstOrDefault(q => q?.Id == id);
         }
 
-        public List<Question> ReadAll(Func<T, bool>? filter = null)
+        public List<Question> ReadAll(Func<Question, bool>? filter = null)
         {
             Tools.LogManager.writeToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "started");
             Tools.LogManager.writeToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "finish");
@@ -65,11 +65,11 @@ namespace Dal
             }
             throw new IdNotFoundException("Question with this ID does not exist");
         }
-        public Question? Read(Func<T, bool> filter)
+        public Question? Read(Func<Question, bool> filter)
         {
             Tools.LogManager.writeToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "started");
             Tools.LogManager.writeToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "finish");
-            return DataSource.Questions.FirstOrDefault(q => filter((T)(object)q));
+            return DataSource.Questions.FirstOrDefault(q => q != null && filter(q));
         }
     }
 }

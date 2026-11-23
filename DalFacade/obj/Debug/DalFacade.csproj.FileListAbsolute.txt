@@ -67,3 +67,8 @@ C:\Users\huser\source\DotNet2027_3530_9584\DalFacade\obj\Debug\DalFacade.sourcel
 C:\Users\huser\source\DotNet2027_3530_9584\DalFacade\obj\Debug\DalFacade.dll
 C:\Users\huser\source\DotNet2027_3530_9584\DalFacade\obj\Debug\refint\DalFacade.dll
 C:\Users\huser\source\DotNet2027_3530_9584\DalFacade\obj\Debug\DalFacade.pdb
+C:\Users\huser\source\DotNet2027_3530_9584\bin\DalFacade.deps.json
+C:\Users\huser\source\DotNet2027_3530_9584\bin\DalFacade.dll
+C:\Users\huser\source\DotNet2027_3530_9584\bin\DalFacade.pdb
+C:\Users\huser\source\DotNet2027_3530_9584\DalFacade\obj\Debug\DalFacade.csproj.Up2Date
+C:\Users\huser\source\DotNet2027_3530_9584\DalFacade\obj\Debug\ref\DalFacade.dll

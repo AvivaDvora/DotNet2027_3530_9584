@@ -38,7 +38,7 @@ namespace Dal
                     q?.TestId == testId &&
                     q?.QuestionId == questionId);
         }
-        public List<QuestionForStudent> ReadAll(Func<T, bool>? filter = null)
+        public List<QuestionForStudent> ReadAll(Func<QuestionForStudent, bool>? filter = null)
         {
             Tools.LogManager.writeToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "started");
             Tools.LogManager.writeToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "finish");

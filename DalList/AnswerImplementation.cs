@@ -34,8 +34,8 @@ namespace Dal
 
             return DataSource.Answers.FirstOrDefault(a => a?.Id == id);
         }
-
-        public List<Answer> ReadAll(Func<T, bool>? filter = null)
+        
+        public List<Answer> ReadAll(Func<Answer, bool>? filter = null)
         {
             Tools.LogManager.writeToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "starting");
 
@@ -72,11 +72,12 @@ namespace Dal
                 }
             throw new IdNotFoundException("Answer with this ID does not exist");
         }
-        public QuestionForStudent? Read(Func<T, bool> filter)
+        public Answer? Read(Func<Answer, bool> filter)
         {
             Tools.LogManager.writeToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "starting");
             Tools.LogManager.writeToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "finish");
-            return DataSource.Answers.FirstOrDefault(filter);
+            // Adapt filter to accept nullable Answer (Answer?)
+            return DataSource.Answers.FirstOrDefault(a => a != null && filter(a));
         }
 
     }

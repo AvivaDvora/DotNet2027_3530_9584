@@ -28,7 +28,8 @@ namespace Dal
             return DataSource.Tests.FirstOrDefault(t => t?.Id == id);
         }
 
-        public List<Test> ReadAll(Func<T, bool>? filter = null)
+     
+        public List<Test> ReadAll(Func<Test, bool>? filter = null)
         {
             Tools.LogManager.writeToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "started");
             Tools.LogManager.writeToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "finish");
