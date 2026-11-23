@@ -43,3 +43,9 @@ C:\bin\DalTest.deps.json
 C:\bin\DalTest.runtimeconfig.json
 C:\bin\DalTest.dll
 C:\bin\DalTest.pdb
+C:\Users\huser\source\DotNet2027_3530_9584\DalTest\obj\Debug\DalTest.csproj.AssemblyReference.cache
+C:\Users\huser\source\DotNet2027_3530_9584\DalTest\obj\Debug\DalTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\huser\source\DotNet2027_3530_9584\DalTest\obj\Debug\DalTest.AssemblyInfoInputs.cache
+C:\Users\huser\source\DotNet2027_3530_9584\DalTest\obj\Debug\DalTest.AssemblyInfo.cs
+C:\Users\huser\source\DotNet2027_3530_9584\DalTest\obj\Debug\DalTest.csproj.CoreCompileInputs.cache
+C:\Users\huser\source\DotNet2027_3530_9584\DalTest\obj\Debug\DalTest.sourcelink.json

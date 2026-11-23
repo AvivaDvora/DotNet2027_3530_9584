@@ -19,7 +19,7 @@ public interface IQuestion: ICrud<Question>
 
     /// <summary>החזרת כל השאלות שבמאגר.</summary>
     /// <returns>רשימת השאלות.</returns>
-    List<Question> ReadAll(Func<T, bool>? filter = null);
+    List<Question> ReadAll(Func<Student, bool>? filter = null);
 
     /// <summary>עדכון נתוני שאלה קיימת לפי המזהה שלה.</summary>
     /// <param name="item">השאלה המעודכנת.</param>
@@ -30,5 +30,5 @@ public interface IQuestion: ICrud<Question>
     /// <param name="id">מזהה השאלה למחיקה.</param>
     /// <exception cref="DalDoesNotExistException">כאשר לא קיימת שאלה עם מזהה כזה.</exception>
     void Delete(int id);
-    Question? Read(Func<T, bool> filter);
+    Question? Read(Func<Question, bool> filter);
 }

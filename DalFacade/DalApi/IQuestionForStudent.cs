@@ -21,7 +21,7 @@ public interface IQuestionForStudent : ICrud<QuestionForStudent>
 
     /// <summary>החזרת כל רשומות השאלות-לנבחן שבמאגר.</summary>
     /// <returns>רשימת הרשומות.</returns>
-    List<QuestionForStudent> ReadAll(Func<T, bool>? filter = null);
+    List<QuestionForStudent> ReadAll(Func<QuestionForStudent, bool>? filter = null);
 
     /// <summary>עדכון רשומת שאלה-לנבחן קיימת לפי המפתח המשולב.</summary>
     /// <param name="item">הרשומה המעודכנת.</param>
@@ -34,5 +34,5 @@ public interface IQuestionForStudent : ICrud<QuestionForStudent>
     /// <param name="questionId">מזהה השאלה.</param>
     /// <exception cref="DalDoesNotExistException">כאשר לא קיימת רשומה עם מפתח משולב כזה.</exception>
     void Delete(int studentId, int testId, int questionId);
-    QuestionForStudent? Read(Func<T, bool> filter);
+    QuestionForStudent? Read(Func<QuestionForStudent, bool> filter);
 }

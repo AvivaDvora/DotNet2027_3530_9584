@@ -18,7 +18,7 @@ public interface IStudent : ICrud<Student>
 
     /// <summary>החזרת כל התלמידים שבמאגר.</summary>
     /// <returns>רשימת התלמידים.</returns>
-    List<Student> ReadAll(Func<T, bool>? filter = null);
+    List<Student> ReadAll(Func<Student, bool>? filStudenter = null);
 
     /// <summary>עדכון נתוני תלמיד קיים לפי המזהה שלו.</summary>
     /// <param name="item">התלמיד המעודכן.</param>
@@ -29,5 +29,5 @@ public interface IStudent : ICrud<Student>
     /// <param name="id">מזהה התלמיד למחיקה.</param>
     /// <exception cref="DalDoesNotExistException">כאשר לא קיים תלמיד עם מזהה כזה.</exception>
     void Delete(int id);
-    Student? Read(Func<T, bool> filter);
+    Student? Read(Func<Student, bool> filter);
 }

@@ -19,7 +19,7 @@ public interface IAnswer : ICrud<Answer>
 
     /// <summary>החזרת כל התשובות שבמאגר.</summary>
     /// <returns>רשימת התשובות.</returns>
-    List<Answer> ReadAll(Func<T, bool>? filter = null);
+    List<Answer> ReadAll(Func<Student, bool>? filter = null);
 
     /// <summary>עדכון נתוני תשובה קיימת לפי המזהה שלה.</summary>
     /// <param name="item">התשובה המעודכנת.</param>
@@ -33,5 +33,5 @@ public interface IAnswer : ICrud<Answer>
     ///<summary> הוספת תשובה</summary>
     int Create(Answer item);
 
-    Answer? Read(Func<T, bool> filter);
+    Answer? Read(Func<Answer, bool> filter);
 }

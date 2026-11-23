@@ -35,7 +35,7 @@ namespace Dal
         }
 
         
-        public List<Student> ReadAll(Func<T, bool>? filter = null)
+        public List<Student> ReadAll(Func<Student, bool>? filter = null)
         {
             Tools.LogManager.writeToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "started");
             Tools.LogManager.writeToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "finish");
@@ -78,10 +78,10 @@ namespace Dal
             }
               throw new IdNotFoundException("Student with this ID does not exist");
         }
-        public Student? Read(Func<T, bool> filter)
+        public Student? Read(Func<Student, bool> filter)
         {
             Tools.LogManager.writeToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "started");
-            var student = DataSource.Students.FirstOrDefault(s => filter((T)(object)s));
+            var student = DataSource.Students.FirstOrDefault(s => filter((Student)(object)s));
             if (student == null) throw new IdNotFoundException("Student with this ID does not exist");
             Tools.LogManager.writeToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "finish");
             return student;
