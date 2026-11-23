@@ -209,9 +209,10 @@ public static class Initialization
     {
         s_dal = DalApi.Factory.Get;
         createStusents();
+        // Questions/testsQuestionsForStudent reference answer IDs, so answers must be created first.
+        createAnswers();
         createQuestion();
         createTests();
         createQuestionsForStudent();
-        createAnswers();
     }
 }

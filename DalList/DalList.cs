@@ -1,15 +1,14 @@
 ﻿using DalApi;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Dal
 {
-    internal sealed class DalList : IDal
+    public sealed class DalList : IDal
     {
-        private readonly DalList instance = new DalList();
+        // Lazy + thread-safe, and the setter is private, so only "Instance" can be assigned.
+        private static readonly Lazy<DalList> s_instance =
+            new Lazy<DalList>(() => new DalList());
+
+        public static DalList Instance => s_instance.Value;
 
         public IQuestion Question { get; }
         public IStudent Student { get; }
@@ -17,16 +16,8 @@ namespace Dal
         public IQuestionForStudent QuestionForStudent { get; }
         public IAnswer Answer { get; }
 
-        private DalList Instance
-        {
-            get { return Instance; }
-        }
-
-
-
         private DalList()
         {
-            instance = this;
             Question = new QuestionImplementation();
             Student = new StudentImplementation();
             Test = new TestImplementation();

@@ -15,6 +15,14 @@
   <ItemGroup>
     <ProjectReference Include="..\DalFacade\DalFacade.csproj" />
     <ProjectReference Include="..\Tools\Tools.csproj" />
+    <!-- DalList is resolved at runtime by DalApi.Factory (dal-config.xml), but it must be
+         a build dependency so bin\DalList.dll exists and is copied next to DalTest.exe. -->
+    <ProjectReference Include="..\DalList\DalList.csproj" />
+    <!-- dal-config.xml is probed as "..\xml\dal-config.xml" relative to the process working
+         directory. Copy it next to the exe so it also works outside the solution root. -->
+    <None Include="..\xml\dal-config.xml" Link="xml\dal-config.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>

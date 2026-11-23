@@ -60,3 +60,9 @@ C:\Users\huser\source\DotNet2027_3530_9584\DalTest\obj\Debug\refint\DalTest.dll
 C:\Users\huser\source\DotNet2027_3530_9584\DalTest\obj\Debug\DalTest.pdb
 C:\Users\huser\source\DotNet2027_3530_9584\DalTest\obj\Debug\DalTest.genruntimeconfig.cache
 C:\Users\huser\source\DotNet2027_3530_9584\DalTest\obj\Debug\ref\DalTest.dll
+Z:\יד תשפז\פינסקי אהובה\DotNet2027_3530_9584\DalTest\obj\Debug\DalTest.csproj.AssemblyReference.cache
+Z:\יד תשפז\פינסקי אהובה\DotNet2027_3530_9584\DalTest\obj\Debug\DalTest.GeneratedMSBuildEditorConfig.editorconfig
+Z:\יד תשפז\פינסקי אהובה\DotNet2027_3530_9584\DalTest\obj\Debug\DalTest.AssemblyInfoInputs.cache
+Z:\יד תשפז\פינסקי אהובה\DotNet2027_3530_9584\DalTest\obj\Debug\DalTest.AssemblyInfo.cs
+Z:\יד תשפז\פינסקי אהובה\DotNet2027_3530_9584\DalTest\obj\Debug\DalTest.csproj.CoreCompileInputs.cache
+Z:\יד תשפז\פינסקי אהובה\DotNet2027_3530_9584\DalTest\obj\Debug\DalTest.sourcelink.json
