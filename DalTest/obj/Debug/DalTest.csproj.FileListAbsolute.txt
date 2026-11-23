@@ -66,3 +66,15 @@ Z:\יד תשפז\פינסקי אהובה\DotNet2027_3530_9584\DalTest\obj\Debug\
 Z:\יד תשפז\פינסקי אהובה\DotNet2027_3530_9584\DalTest\obj\Debug\DalTest.AssemblyInfo.cs
 Z:\יד תשפז\פינסקי אהובה\DotNet2027_3530_9584\DalTest\obj\Debug\DalTest.csproj.CoreCompileInputs.cache
 Z:\יד תשפז\פינסקי אהובה\DotNet2027_3530_9584\DalTest\obj\Debug\DalTest.sourcelink.json
+Z:\יד תשפז\פינסקי אהובה\DotNet2027_3530_9584\bin\xml\dal-config.xml
+Z:\יד תשפז\פינסקי אהובה\DotNet2027_3530_9584\bin\DalTest.exe
+Z:\יד תשפז\פינסקי אהובה\DotNet2027_3530_9584\bin\DalTest.deps.json
+Z:\יד תשפז\פינסקי אהובה\DotNet2027_3530_9584\bin\DalTest.runtimeconfig.json
+Z:\יד תשפז\פינסקי אהובה\DotNet2027_3530_9584\bin\DalTest.dll
+Z:\יד תשפז\פינסקי אהובה\DotNet2027_3530_9584\bin\DalTest.pdb
+Z:\יד תשפז\פינסקי אהובה\DotNet2027_3530_9584\DalTest\obj\Debug\DalTest.csproj.Up2Date
+Z:\יד תשפז\פינסקי אהובה\DotNet2027_3530_9584\DalTest\obj\Debug\DalTest.dll
+Z:\יד תשפז\פינסקי אהובה\DotNet2027_3530_9584\DalTest\obj\Debug\refint\DalTest.dll
+Z:\יד תשפז\פינסקי אהובה\DotNet2027_3530_9584\DalTest\obj\Debug\DalTest.pdb
+Z:\יד תשפז\פינסקי אהובה\DotNet2027_3530_9584\DalTest\obj\Debug\DalTest.genruntimeconfig.cache
+Z:\יד תשפז\פינסקי אהובה\DotNet2027_3530_9584\DalTest\obj\Debug\ref\DalTest.dll
