@@ -1,5 +1,5 @@
 using DO;
-using Dal;
+//using Dal;
 using DalApi;
 using Tools;
 using System.Reflection;
@@ -7,14 +7,14 @@ namespace DalTest;
 
 public class Program
 {
-    private static IDal s_dal = new DalList();
+    private static IDal s_dal = DalApi.Factory.Get;
 
 
 
     public static void Main(string[] args)
     {
 
-        Initialization.Initialize(s_dal);
+        Initialization.Initialize();
         try
         {
             MainMenu();

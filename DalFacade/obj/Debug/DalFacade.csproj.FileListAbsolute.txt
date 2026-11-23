@@ -48,3 +48,5 @@ C:\bin\DalFacade.pdb
 C:\Users\DELL\source\repos\AvivaDvora\DotNet2027_3530_9584\DalFacade\obj\Debug\DalFacade.dll
 C:\Users\DELL\source\repos\AvivaDvora\DotNet2027_3530_9584\DalFacade\obj\Debug\refint\DalFacade.dll
 C:\Users\DELL\source\repos\AvivaDvora\DotNet2027_3530_9584\DalFacade\obj\Debug\DalFacade.pdb
+C:\Users\huser\source\repos\AvivaDvora\DotNet2027_3530_9584\DalFacade\obj\Debug\DalFacade.csproj.AssemblyReference.cache
+C:\Users\huser\source\repos\AvivaDvora\DotNet2027_3530_9584\DalFacade\obj\Debug\DalFacade.sourcelink.json
